@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .nav-item {
+    @apply relative;
+  }
+  .nav-item::after {
+    @apply content-[''] bg-blue-800 h-[4px] w-[0] left-0 bottom-[-4px] rounded-xl absolute duration-300;
+  }
+  .nav-item:hover::after {
+    @apply w-[100%];
+  }
+
+  .subnav-link {
+    @apply hidden group-hover:block absolute top-8 left-[-8px] min-w-max p-2 shadow-md border-t-2 rounded-lg font-bold bg-white z-10;
+  }
+  .border-triangle::after {
+    @apply content-[""] absolute right-[-2%] w-0 h-0 border-t-4 border-b-4 border-l-8 border-l-black border-t-transparent border-b-transparent;
+  }
+}
