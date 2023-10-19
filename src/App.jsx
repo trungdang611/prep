@@ -13,8 +13,8 @@ import { dbSlides, dbSlides2 } from "./components/db.jsx";
 function App() {
   return (
     <>
-      <div className="w-full  font-sans">
-        <div className=" w-full h-auto">
+      <div className="w-full font-sans">
+        <div className="w-full h-auto">
           <img
             src="/top-message/top-message-1.png"
             alt=""
@@ -36,7 +36,6 @@ function App() {
               className="
               container flex flex-col items-center pb-60 pt-24 justify-around z-0
               mx-auto md:flex-row md:pt-20
-          
             "
             >
               <div
@@ -62,8 +61,8 @@ function App() {
             </div>
           </section>
           <div className=" mt-0 md:mt-16"></div>
-          <section className="overflow-visible -mt-40 z-10 md:px-0 px-5 mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 container mx-auto text-center">
+          <section className="overflow-visible z-10 md:px-0 px-5">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 container mx-auto text-center px-4 lg:px-6">
               <Link to="/ielts">
                 <div className="relative bg-white rounded-lg p-10 border-2 top-0 hover:-top-5 duration-300 ease-in-out cursor-pointer">
                   <img
@@ -113,7 +112,7 @@ function App() {
                 <span className="text-blue-600"> Prep.vn</span>
               </h3>
 
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10 container mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10 container mx-auto px-4 lg:px-6">
                 <div className="rounded-3xl p-10  shadow-2xl">
                   <img src="./about/slide.svg" alt="" />
                   <h3 className="font-bold text-lg my-8">
@@ -150,7 +149,7 @@ function App() {
             </div>
           </section>
           <section className="bg-gray-100 p-6 md:p-28">
-            <div className="container md:mx-auto grid grid-rows-1 md:grid-cols-2 gap-10">
+            <div className="container md:mx-auto grid grid-rows-1 md:grid-cols-2 gap-10 px-4 lg:px-6">
               <img src="./bg-section/public.avif" alt="" />
               <div className="my-auto">
                 <h3 className="font-bold text-xl md:text-3xl text-center md:text-left">
@@ -180,7 +179,7 @@ function App() {
             </div>
           </section>
           <section className="bg-white">
-            <div className="container mx-auto py-20">
+            <div className="container mx-auto py-20 px-4 lg:px-6">
               <div className="text-center p-10">
                 <h3 className="text-2xl md:text-3xl font-bold mb-2">
                   100% Giáo viên trên Prep đạt
@@ -238,7 +237,7 @@ function App() {
                   <span className="text-gray-600"> về Prep.vn</span>
                 </h3>
               </div>
-              <div className="grid grid-cols-3 gap-10 mt-20">
+              <div className="grid grid-cols-3 gap-10 mt-20 px-4 lg:px-6">
                 <div className="w-300px bg-white rounded-xl p-5">
                   <div className="flex">
                     <div className="py-2 pr-2">
@@ -354,17 +353,16 @@ function App() {
             </div>
           </section>
           <section className="bg-gray-100">
-            <div className="container mx-auto pb-20">
-              <h1 className=" font-bold text-3xl text-center mb-20">
+            <div className="container mx-auto pb-20 px-4 lg:px-6">
+              <h1 className="font-bold text-3xl text-center mb-20">
                 Báo Chí nói gì về{" "}
                 <span className="text-blue-600"> Prep.vn</span>
               </h1>
-
               <Slide data={dbSlides2} />
             </div>
           </section>
           <section className="bg-gray-100">
-            <div className="container mx-auto pb-20">
+            <div className="container mx-auto pb-20 px-4 lg:px-6">
               <h1 className="text-3xl font-bold text-center mb-20">
                 Chúng tôi tự hào là đối tác của
               </h1>

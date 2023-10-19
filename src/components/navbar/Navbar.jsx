@@ -19,13 +19,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav
-        className="
-            flex justify-between relative top-0 left-0 right-0 bg-white shadow-sm shadow-gray-300 
-            max-h-full flex-col
-            md:min-h-[80px] md:px-10 md:flex-row md:items-center
-        "
-      >
+      <nav className="flex justify-between relative top-0 left-0 right-0 bg-white shadow-sm shadow-gray-300 max-h-full flex-colmd:min-h-[80px] md:px-10 md:flex-row md:items-center">
         <div className="flex justify-between items-center min-h-[60px] px-4 border-b-[1px] border-gray-200 md:hidden">
           <div
             className="md:hidden cursor-pointer text-2xl"
