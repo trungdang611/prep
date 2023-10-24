@@ -4,11 +4,9 @@ import { AiOutlineClose } from "react-icons/ai";
 import { FaPhoneVolume } from "react-icons/fa";
 
 const ChatBox = () => {
-  const [messageChat, setMessageChat] = useState(true);
   const [support, setSupport] = useState(false);
 
-  const handleMessageChat = () => {
-    setMessageChat(null);
+  const handleSupportChat = () => {
     setSupport(!support);
   };
   const handleCloseSupport = () => {
@@ -37,28 +35,25 @@ const ChatBox = () => {
           </div>
         </div>
       ) : (
-        <div className="fixed right-[2%] bottom-[20%]  cursor-pointer z-50">
-          <img
-            src="./chat-box/bee-support.svg"
-            alt=""
-            onClick={handleMessageChat}
-          />
+        <div className="group">
+          <div className="fixed right-[2%] bottom-[20%]  cursor-pointer z-50">
+            <img
+              src="./chat-box/bee-support.svg"
+              alt=""
+              onClick={handleSupportChat}
+            />
+          </div>
+          <div className="hidden group-hover:block fixed bottom-[20%] right-[120px] cursor-pointer z-50">
+            <h1 className=" bottom-64  bg-black text-white w-[200px] md:w-[300px] p-2 text-sm rounded-md border-triangle">
+              Xin chào, Prep rất vui được hỗ trợ bạn.
+              <br />
+              Hãy chọn cách thức kết nối và gửi vấn đề
+              <br />
+              cụ thể mà bạn cần Prep hỗ trợ nhé!
+            </h1>
+          </div>
         </div>
       )}
-
-      <div
-        className={`${
-          messageChat ? "block" : "hidden"
-        } fixed right-[20%] md:right-[7%] bottom-[-13%] cursor-pointer z-50`}
-      >
-        <h1 className="relative bottom-64  bg-black text-white w-[200px] md:w-[300px] p-2 text-sm rounded-md border-triangle">
-          Xin chào, Prep rất vui được hỗ trợ bạn.
-          <br />
-          Hãy chọn cách thức kết nối và gửi vấn đề
-          <br />
-          cụ thể mà bạn cần Prep hỗ trợ nhé!
-        </h1>
-      </div>
     </>
   );
 };
