@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-const Slide = ({ data, autoplay }) => {
+const TeacherSlide = ({ data, autoplay }) => {
   return (
     <>
       <Swiper
@@ -29,11 +29,10 @@ const Slide = ({ data, autoplay }) => {
         {data.map((data, index) => {
           return (
             <SwiperSlide key={index}>
-              <div className="flex flex-col items-center justify-center rounded-xl bg-white p-1 w-[70%] h-auto">
+              <div className="flex flex-col items-center rounded-xl bg-white p-1 w-[500px] h-[250px]">
                 <img src={data.img} alt="" className="w-[100%] rounded-xl" />
-                <h3 className="font-semibold text-xl mt-2">{data.name}</h3>
-                <span className="font-semibold text-gray-400">
-                  {data.point}
+                <span className="font-semibold text-gray-400 text-center">
+                  {data.title}
                 </span>
               </div>
             </SwiperSlide>
@@ -44,4 +43,4 @@ const Slide = ({ data, autoplay }) => {
   );
 };
 
-export default Slide;
+export default TeacherSlide;

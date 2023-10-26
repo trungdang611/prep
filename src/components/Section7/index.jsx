@@ -1,4 +1,4 @@
-import Slide from "../Slide";
+import TeacherSlide from "../Slide/TeacherSlide";
 import { dbSlides2 } from "../db";
 
 const Section7 = () => {
@@ -9,7 +9,7 @@ const Section7 = () => {
           Báo Chí nói gì về <span className="text-blue-600"> Prep.vn</span>
         </h1>
 
-        <Slide data={dbSlides2} />
+        <TeacherSlide data={dbSlides2} />
       </div>
     </section>
   );

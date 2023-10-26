@@ -107,3 +107,24 @@ export const dbSlides2 = [
       "Giải pháp giúp tất cả học viên đều được học- luyện-thi IELTS cùng giáo viên hạng A, IELTS 8.0",
   },
 ];
+
+export const dbPartnerSlide = [
+  {
+    img: "./partner/partner1.jpeg",
+  },
+  {
+    img: "./partner/partner2.png",
+  },
+  {
+    img: "./partner/partner3.png",
+  },
+  {
+    img: "./partner/partner1.jpeg",
+  },
+  {
+    img: "./partner/partner2.png",
+  },
+  {
+    img: "./partner/partner3.png",
+  },
+];
