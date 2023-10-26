@@ -15,14 +15,14 @@ const BackToTop = () => {
 
   const scrollUp = () => {
     window.scrollTo({
-      top: 140,
+      top: 0,
       behavior: "smooth",
     });
   };
   return (
     <>
       {backToTopButton ? (
-        <div className="fixed md:bottom-24 bottom-24 right-10 ">
+        <div className="fixed md:bottom-20 bottom-24 right-10 z-50">
           <button
             onClick={scrollUp}
             className="bg-blue-600 text-white p-2 rounded-xl z-50 cursor-pointer"

@@ -4,7 +4,7 @@ import { dbSlides } from "../db";
 const Section5 = () => {
   return (
     <section className="bg-white">
-      <div className="container mx-auto py-20">
+      <div className="container md:px-4 mx-auto py-20">
         <div className="text-center p-10">
           <h3 className="text-2xl md:text-3xl font-bold mb-2">
             100% Giáo viên trên Prep đạt
@@ -16,10 +16,10 @@ const Section5 = () => {
             Cựu du học sinh hoặc tốt nghiệp từ ĐH danh tiếng
           </span>
         </div>
-        <div>
+        <div className="container mx-auto md:px-16">
           <Slide data={dbSlides} autoplay={true} />
         </div>
-        <div className="flex flex-col md:flex-row items-center justify-between mt-10">
+        <div className="flex flex-col md:flex-row items-center justify-between mt-10 container mx-auto md:px-16">
           <div className="mb-5 md:mb-0">
             <h3 className="text-3xl font-bold my-2">Bảng vàng</h3>
             <span className=" text-3xl font-bold text-orange-400 my-2">

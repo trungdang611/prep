@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 const Footer = () => {
   return (
     <section className="bg-[#F9FAFB]">
-      <div className="grid grid-cols-4 gap-5 container mx-auto py-10 border-b-[1px] border-gray-400">
+      <div className="grid grid-cols-4 gap-5 container px-5 md:px-16 mx-auto py-10 border-b-[1px] border-gray-400">
         <div>
           <img src="./logo.svg" alt="" className="my-5" />
           <h1 className="font-bold text-lg">CÔNG TY CỔ PHẦN CÔNG NGHỆ PREP</h1>
@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="container mx-auto grid grid-cols-2 mt-3">
+      <div className="container px-5 md:px-16 mx-auto grid grid-cols-2 mt-3">
         <div>
           <h1 className="font-bold my-3">TRUNG TÂM ĐÀO TẠO NGOẠI NGỮ PREP</h1>
           <h3 className="font-semibold text-black mb-2 ">

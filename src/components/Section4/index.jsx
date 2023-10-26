@@ -5,7 +5,7 @@ import Button from "../Button";
 const Section4 = () => {
   return (
     <section className="bg-gray-100 p-6 md:p-28">
-      <div className="container md:mx-auto grid grid-rows-1 md:grid-cols-2 gap-10">
+      <div className="container px-5 md:px-16 md:mx-auto grid grid-rows-1 md:grid-cols-2 gap-10">
         <img src="./bg-section/public.avif" alt="" />
         <div className="my-auto">
           <h3 className="font-bold text-xl md:text-3xl text-center md:text-left">

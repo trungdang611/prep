@@ -3,7 +3,7 @@ import { AiFillLike, AiFillStar } from "react-icons/ai";
 const Section6 = () => {
   return (
     <section className="bg-gray-100">
-      <div className="container mx-auto py-32">
+      <div className="container px-5 md:px-16 mx-auto py-32">
         <div className="text-center">
           <h3 className="text-3xl font-bold text-blue-600">
             Học viên nói gì

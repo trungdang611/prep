@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Section2 = () => {
   return (
     <section className="overflow-visible -mt-40 z-10 md:px-0 px-5">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 container mx-auto text-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 container mx-auto text-center md:px-16">
         <Link to="/ielts">
           <div className="relative bg-white rounded-lg p-10 border-2 top-0 hover:-top-5 duration-300 ease-in-out cursor-pointer">
             <img

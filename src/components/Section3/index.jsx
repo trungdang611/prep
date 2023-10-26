@@ -1,7 +1,7 @@
 const Section3 = () => {
   return (
     <section className=" px-5">
-      <div className="container mx-auto py-[100px]">
+      <div className="container md:px-16 mx-auto py-[100px]">
         <h3 className="font-bold text-2xl md:text-3xl text-center text-black">
           Những gì chỉ có tại
           <span className="text-blue-600"> Prep.vn</span>

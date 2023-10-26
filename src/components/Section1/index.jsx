@@ -4,7 +4,7 @@ const Section1 = () => {
       <div
         className="
               container flex flex-col items-center pb-60 pt-24 justify-around z-0
-              mx-auto md:flex-row md:pt-20
+              mx-auto md:flex-row md:pt-20 md:px-16
           
             "
       >
