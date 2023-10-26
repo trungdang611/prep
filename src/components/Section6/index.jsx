@@ -10,7 +10,7 @@ const Section6 = () => {
             <span className="text-gray-600"> về Prep.vn</span>
           </h3>
         </div>
-        <div className="grid grid-cols-3 gap-10 mt-20">
+        <div className="grid grid-rows-1 md:grid-cols-3 gap-10 mt-20">
           <div className="w-300px bg-white rounded-xl p-5">
             <div className="flex">
               <div className="py-2 pr-2">

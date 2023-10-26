@@ -68,7 +68,7 @@ const Footer = () => {
         </div>
         <div>
           <h1 className="font-bold my-3">CHỨNG NHẬN BỞI</h1>
-          <div className="flex">
+          <div className="flex flex-col md:flex-row">
             <img src="./bct.png" alt="" className="w-[30%] mr-2" />
             <img src="./sectigo.png" alt="" className="w-[60%] mr-2" />
             <img
