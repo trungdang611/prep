@@ -11,7 +11,7 @@ const PartnerSlides = ({ data, autoplay }) => {
   return (
     <>
       <Swiper
-        slidesPerView={3}
+        slidesPerView={1}
         spaceBetween={30}
         autoplay={
           autoplay
@@ -21,8 +21,23 @@ const PartnerSlides = ({ data, autoplay }) => {
               }
             : false
         }
-        pagination={false}
+        centerSlides={true}
+        grabCursor={true}
+        pagination={{
+          clickable: true,
+          dynamicBullets: true,
+        }}
         navigation={false}
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        }}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >

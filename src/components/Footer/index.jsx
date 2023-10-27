@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 const Footer = () => {
   return (
     <section className="bg-[#F9FAFB]">
-      <div className="grid grid-cols-4 gap-5 container px-5 md:px-16 mx-auto py-10 border-b-[1px] border-gray-400">
+      <div className="grid grid-rows-1 md:grid-cols-3 gap-5 container px-5 md:px-16 mx-auto pt-10 pb-1 border-b-[1px] border-gray-400">
         <div>
           <img src="./logo.svg" alt="" className="my-5" />
           <h1 className="font-bold text-lg">CÔNG TY CỔ PHẦN CÔNG NGHỆ PREP</h1>
@@ -24,31 +24,35 @@ const Footer = () => {
             NO.21-C2 KĐT Nam Trung Yên, P.Trung Hòa, Q.Cầu Giấy, Tp.Hà Nội
           </h3>
         </div>
-        <div>
-          <h1 className="font-bold my-5">VỀ PREP</h1>
-          <h1 className=" text-gray-500 mb-5">Giới thiệu</h1>
-          <h1 className=" text-gray-500 mb-5">Tuyển dụng</h1>
-          <h1 className="font-bold my-5">KẾT NỐI VỚI CHÚNG TÔI</h1>
-          <div className="flex text-gray-500 text-2xl">
-            <BsFacebook className="mr-3" />
-            <MdEmail />
+        <div className="grid grid-cols-2">
+          <div>
+            <h1 className="font-bold my-5">VỀ PREP</h1>
+            <h1 className=" text-gray-500 mb-5">Giới thiệu</h1>
+            <h1 className=" text-gray-500 mb-5">Tuyển dụng</h1>
+            <h1 className="font-bold my-5">KẾT NỐI VỚI CHÚNG TÔI</h1>
+            <div className="flex text-gray-500 text-2xl">
+              <BsFacebook className="mr-3" />
+              <MdEmail />
+            </div>
+          </div>
+          <div>
+            <h1 className="font-bold my-5">THÔNG TIN </h1>
+            <h1 className=" text-gray-500 mb-5">Điều kiện giao dịch</h1>
+            <h1 className=" text-gray-500 mb-5">Chính sách thanh toán</h1>
+            <h1 className=" text-gray-500 mb-5">Chính sách bảo vệ thông tin</h1>
+            <div className=" text-gray-500 mb-5">Cam kết đầu ra</div>
           </div>
         </div>
         <div>
-          <h1 className="font-bold my-5">THÔNG TIN </h1>
-          <h1 className=" text-gray-500 mb-5">Điều kiện giao dịch</h1>
-          <h1 className=" text-gray-500 mb-5">Chính sách thanh toán</h1>
-          <h1 className=" text-gray-500 mb-5">Chính sách bảo vệ thông tin</h1>
-          <div className=" text-gray-500 mb-5">Cam kết đầu ra</div>
-        </div>
-        <div>
           <h3 className="font-bold my-5">TẢI ỨNG DỤNG TRÊN ĐIỆN THOẠI</h3>
-          <img src="./app-store-n.svg" alt="" className="mb-5" />
-          <img src="./gg-play-n.svg" alt="" />
+          <div className="flex flex-row md:flex-col justify-around items-center md:items-start">
+            <img src="./app-store-n.svg" alt="" className="mb-5" />
+            <img src="./gg-play-n.svg" alt="" className="mb-5" />
+          </div>
         </div>
       </div>
 
-      <div className="container px-5 md:px-16 mx-auto grid grid-cols-2 mt-3">
+      <div className="container px-5 md:px-16 mx-auto grid grid-rows-1 md:grid-cols-2 mt-3">
         <div>
           <h1 className="font-bold my-3">TRUNG TÂM ĐÀO TẠO NGOẠI NGỮ PREP</h1>
           <h3 className="font-semibold text-black mb-2 ">
@@ -68,7 +72,7 @@ const Footer = () => {
         </div>
         <div>
           <h1 className="font-bold my-3">CHỨNG NHẬN BỞI</h1>
-          <div className="flex flex-col md:flex-row">
+          <div className="flex flex-row">
             <img src="./bct.png" alt="" className="w-[30%] mr-2" />
             <img src="./sectigo.png" alt="" className="w-[60%] mr-2" />
             <img

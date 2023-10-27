@@ -79,7 +79,7 @@ const Navbar = () => {
             </Link>
           </ul>
 
-          <div className="hidden md:block px-4">
+          <div className="hidden md:block">
             <Link to="/login">
               <Button
                 className={

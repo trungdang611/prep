@@ -11,7 +11,7 @@ const Slide = ({ data, autoplay }) => {
   return (
     <>
       <Swiper
-        slidesPerView={3}
+        slidesPerView={1}
         spaceBetween={30}
         autoplay={
           autoplay
@@ -21,9 +21,21 @@ const Slide = ({ data, autoplay }) => {
               }
             : false
         }
+        centerSlides={true}
+        grabCursor={true}
         pagination={false}
         navigation={false}
         modules={[Autoplay, Pagination, Navigation]}
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        }}
         className="mySwiper"
       >
         {data.map((data, index) => {
