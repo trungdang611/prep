@@ -72,13 +72,13 @@ const Footer = () => {
         </div>
         <div>
           <h1 className="font-bold my-3">CHỨNG NHẬN BỞI</h1>
-          <div className="flex flex-row">
-            <img src="./bct.png" alt="" className="w-[30%] mr-2" />
-            <img src="./sectigo.png" alt="" className="w-[60%] mr-2" />
+          <div className="flex justify-around items-center">
+            <img src="./bct.png" alt="" className="w-[30%]" />
+            <img src="./sectigo.png" alt="" className="w-[30%] " />
             <img
               src="./_dmca_premi_badge_4.png"
               alt=""
-              className="w-[100%] h-auto"
+              className="w-[30%] h-[30px] md:h-[50px]"
             />
           </div>
         </div>

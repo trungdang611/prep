@@ -41,9 +41,13 @@ const TeacherSlide = ({ data, autoplay }) => {
         {data.map((data, index) => {
           return (
             <SwiperSlide key={index}>
-              <div className="flex flex-col items-center rounded-xl bg-white p-1 w-[380px] h-[200px]">
-                <img src={data.img} alt="" className="w-[100%] rounded-xl" />
-                <span className="font-semibold text-gray-400 text-center">
+              <div className="flex flex-col items-center rounded-xl bg-white p-1 w-[350px] md:w-[380px] h-[220px] border md:ml-[25px]">
+                <img
+                  src={data.img}
+                  alt=""
+                  className="w-[100%] rounded-xl shadow-md"
+                />
+                <span className="font-semibold text-gray-400 text-center mt-3">
                   {data.title}
                 </span>
               </div>

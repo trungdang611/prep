@@ -41,8 +41,12 @@ const Slide = ({ data, autoplay }) => {
         {data.map((data, index) => {
           return (
             <SwiperSlide key={index}>
-              <div className="flex flex-col items-center justify-center rounded-xl bg-white p-1 w-[70%] h-auto ml-16">
-                <img src={data.img} alt="" className="w-[100%] rounded-xl" />
+              <div className="flex flex-col items-center justify-center rounded-xl bg-white p-1 w-[70%] h-auto ml-[55px]">
+                <img
+                  src={data.img}
+                  alt=""
+                  className="w-[100%] rounded-xl border"
+                />
                 <h3 className="font-semibold text-xl mt-2">{data.name}</h3>
                 <span className="font-semibold text-gray-400">
                   {data.point}

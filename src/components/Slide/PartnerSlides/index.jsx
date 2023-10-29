@@ -44,7 +44,7 @@ const PartnerSlides = ({ data, autoplay }) => {
         {data.map((data, index) => {
           return (
             <SwiperSlide key={index}>
-              <div className="p-10 bg-white flex justify-center w-[380px] h-[200px]">
+              <div className="p-10 bg-white flex justify-center w-[380px] h-[200px] border md:ml-[25px]">
                 <img src={data.img} alt="" className="w-[50%] rounded-xl" />
               </div>
             </SwiperSlide>
