@@ -21,13 +21,13 @@ const ChatBox = () => {
         } fixed right-[2%] bottom-[20%] cursor-pointer z-50`}
           onClick={handleCloseSupport}
         >
-          <div className="bg-white p-5 rounded-full mb-3">
+          <div className="bg-white p-5 rounded-full mb-3 shadow-md">
             <img src="./chat-box/zalo.svg" alt="" />
           </div>
-          <div className="bg-white p-5 rounded-full mb-3">
+          <div className="bg-white p-5 rounded-full mb-3 shadow-md">
             <img src="./chat-box/form-pen.svg" alt="" />
           </div>
-          <div className="bg-white p-5 rounded-full mb-3">
+          <div className="bg-white p-5 rounded-full mb-3 shadow-md">
             <FaPhoneVolume className=" text-4xl text-blue-600" />
           </div>
           <div className="bg-black p-5 rounded-full">

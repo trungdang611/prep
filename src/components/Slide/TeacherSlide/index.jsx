@@ -42,11 +42,7 @@ const TeacherSlide = ({ data, autoplay }) => {
           return (
             <SwiperSlide key={index}>
               <div className="flex flex-col items-center rounded-xl bg-white p-1 w-[350px] md:w-[380px] h-[220px] border">
-                <img
-                  src={data.img}
-                  alt=""
-                  className="w-[100%] rounded-xl shadow-md"
-                />
+                <img src={data.img} alt="" className="w-[100%] rounded-t-xl" />
                 <span className="font-semibold text-gray-400 text-center mt-3">
                   {data.title}
                 </span>
