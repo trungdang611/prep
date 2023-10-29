@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="container px-5 md:px-16 mx-auto grid grid-rows-1 md:grid-cols-2 mt-3">
+      <div className="container px-5 md:px-16 mx-auto grid grid-rows-1 md:grid-cols-2 my-3">
         <div>
           <h1 className="font-bold my-3">TRUNG TÂM ĐÀO TẠO NGOẠI NGỮ PREP</h1>
           <h3 className="font-semibold text-black mb-2 ">

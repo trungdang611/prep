@@ -41,7 +41,7 @@ const TeacherSlide = ({ data, autoplay }) => {
         {data.map((data, index) => {
           return (
             <SwiperSlide key={index}>
-              <div className="flex flex-col items-center rounded-xl bg-white p-1 w-[350px] md:w-[380px] h-[220px] border md:ml-[25px]">
+              <div className="flex flex-col items-center rounded-xl bg-white p-1 w-[350px] md:w-[380px] h-[220px] border">
                 <img
                   src={data.img}
                   alt=""
