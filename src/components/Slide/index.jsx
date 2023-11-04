@@ -21,7 +21,6 @@ const Slide = ({ data, autoplay }) => {
               }
             : false
         }
-        centerSlides={true}
         grabCursor={true}
         pagination={false}
         navigation={false}

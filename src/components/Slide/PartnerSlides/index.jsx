@@ -21,7 +21,6 @@ const PartnerSlides = ({ data, autoplay }) => {
               }
             : false
         }
-        centerSlides={true}
         grabCursor={true}
         pagination={{
           clickable: true,

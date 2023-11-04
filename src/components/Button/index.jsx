@@ -3,10 +3,10 @@ const Button = ({ onClick, children, className }) => {
     <>
       <button
         className={`
+          text-white
             rounded-md
             px-4
             py-2
-            text-white
             bg-blue-600
             ${className}
         `}
